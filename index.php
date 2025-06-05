@@ -17,6 +17,7 @@
 
 		// Check connection
 		if ($conn->connect_error) {
+			echo "connecton Error"
 			die("Connection failed: " . $conn->connect_error);
 		}
 
