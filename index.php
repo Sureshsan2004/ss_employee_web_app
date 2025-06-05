@@ -12,10 +12,10 @@
 		$username = "ss_sqlserver_admin";
 		$password = "Jks@4231";
 		$dbname = "ss_hrms_db";
-
+		echo $servername;
 		// Create database connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
-
+        echo $conn;
 		// Check connection
 		if ($conn->connect_error) {
 			echo "connecton Error";
