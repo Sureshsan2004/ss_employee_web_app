@@ -4,7 +4,7 @@
 	<title>MySQL Table Viewer</title>
 </head>
 <body>
-	<h1>MySQL Table Viewer-1</h1>
+	<h1>MySQL Table Viewer-2</h1>
 	<?php
 	    echo "Hello World";
 		// Define database connection variables
@@ -14,6 +14,7 @@
 		$dbname = "ss_hrms_db";
 		$port="3306";
 		echo $servername;
+		echo "xxxxxxxxxxxxxxxx";
 		// Create database connection
 		$conn = new mysqli($servername, $username, $password, $dbname,$port);
         echo "ss1";
