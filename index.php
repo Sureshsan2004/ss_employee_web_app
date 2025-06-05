@@ -4,8 +4,9 @@
 	<title>MySQL Table Viewer</title>
 </head>
 <body>
-	<h1>MySQL Table Viewer</h1>
+	<h1>MySQL Table Viewer-1</h1>
 	<?php
+	    echo "Hello World";
 		// Define database connection variables
 		$servername = "ss-azuresqlserver.mysql.database.azure.com";
 		$username = "ss_sqlserver_admin";
@@ -17,7 +18,7 @@
 
 		// Check connection
 		if ($conn->connect_error) {
-			echo "connecton Error"
+			echo "connecton Error";
 			die("Connection failed: " . $conn->connect_error);
 		}
 
